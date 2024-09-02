@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Porcentagem mensal</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Porcentagem mensal</h1>
+	<table id="faturamento-table">
+  <thead>
+    <tr>
+      <th>Estado</th>
+      <th>Porcentagem %</th>
+    </tr>	
+  </thead>
+  <tbody id="faturamento-body">
+		<tr>
+			<td>São Paulo</td>
+			<td id="porcentagem-sp"></td>
+		</tr>
+		<tr>
+			<td>Rio de Janeiro</td>
+			<td id="porcentagem-rj"></td>
+		</tr>
+		<tr>
+			<td>Minas Gerais</td>
+			<td id="porcentagem-mg"></td>
+		</tr>
+		<tr>
+			<td>Espírito Santo</td>
+			<td id="porcentagem-es"></td>
+		</tr>
+		<tr>
+			<td>Outros</td>
+			<td id="porcentagem-outros"></td>
+		</tr>
+  </tbody>
+</table>
+  <button id="botaoChecar" onclick="checarPorcentagem()">Checar</button>
+  <div id="checarPorcentagem"></div>
+	<script src="script.js"></script>
+</body>
+</html>

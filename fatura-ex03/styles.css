@@ -1,0 +1,31 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: rgb(31, 32, 32);
+	color: whitesmoke;
+	padding: 1rem;
+}
+
+#checarMenorValor {
+	margin-top: 1rem;
+}
+
+table#faturamento-table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.8em; /* smaller font size */
+  font-family: Arial, sans-serif;
+}
+
+th, td {
+  border: 1px solid #7c7c7c;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #15251f;
+}
+
+tr:hover {
+  background-color: #234435;
+}

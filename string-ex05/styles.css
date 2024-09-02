@@ -1,0 +1,10 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: rgb(31, 32, 32);
+	color: whitesmoke;
+	padding: 1rem;
+}
+
+#resultado {
+	margin-top: 1rem;
+}
